@@ -135,12 +135,12 @@ def t_RBRAC(t):
 
 
 def t_DASH(t):
-    r'\s*\-'
+    r'\-'
     return t
 
 
 def t_PLUS(t):
-    r'\s*\+'
+    r'\+'
     return t
 
 
